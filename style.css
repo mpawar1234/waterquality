@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+   
+   
+    background-image: url(images/waterimages.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* Header styles */
+header {
+    background-color: #1a64b4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Input Section styles */
+#input-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#location-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #b65e5e;
+    border-radius: 5px;
+}
+
+#location-input:focus {
+    outline: none;
+    border-color: #1f5792;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d55a1;
+    color: #181515;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e262e;
+}
+
+/* Information Display Section styles */
+#info-section, #news-section {
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#social-media img {
+    width: 30px;
+    margin-left: 10px;
+}
+footer{
+    margin-top: 400px;
+}
+/* Footer styles */
+footer {
+    background-color: #769dc7;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #661836;
+}
+
+#social-media  {
+    display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 20px;
+}
